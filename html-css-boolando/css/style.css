@@ -51,13 +51,13 @@ img {
 Hover Immagine
 ...............*/
 
-#img-hover {
+.img-hover {
     position: relative;
     top: 920px;
     display: none;
 }
 
-.prodotto:hover #img-hover {
+.prodotto:hover .img-hover {
     position: absolute;
     display: block;
 }
@@ -119,15 +119,15 @@ h1 {
     position: relative;
 }
 
-#marchio, #articolo, #prezzo {
+.marchio, .articolo, .prezzo {
     padding: 3px;
 }
 
-#prezzo {
+.prezzo {
     color: #ff0000;
 }
 
-#prezzone {
+.prezzone {
     color: #000000;
     text-decoration: line-through;
 }
