@@ -48,6 +48,21 @@ img {
 }
 
 /*..............
+Hover Immagine
+...............*/
+
+#img-hover {
+    position: relative;
+    top: 920px;
+    display: none;
+}
+
+.prodotto:hover #img-hover {
+    position: absolute;
+    display: block;
+}
+
+/*..............
 Header
 ...............*/
 
