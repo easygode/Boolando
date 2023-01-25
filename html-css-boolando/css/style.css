@@ -97,3 +97,11 @@ h1 {
 Footer
 ...............*/
 
+.fotter {
+    align-content: space-between;
+    justify-items:center;
+    width: 100%;
+    background-color: black;
+    font-size: 5px;
+    padding: 5px 0 5px 0;
+}
