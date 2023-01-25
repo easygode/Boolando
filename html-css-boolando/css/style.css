@@ -22,7 +22,6 @@ Debug
 
 
 
-
 /*..............
 Common, immagini, link e liste
 ...............*/
@@ -97,12 +96,12 @@ Main
     margin-bottom: 50px;
 }
 
-.tall img {
-    background-size: 100px;
-}
-
 h1 {
     font-size: 20px;
+}
+
+.prodotto {
+    position: relative;
 }
 
 #marchio, #articolo, #prezzo {
@@ -118,9 +117,42 @@ h1 {
     text-decoration: line-through;
 }
 
+.sconto {
+    background-color: #ff0000;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 800px;
 
+}
 
+.sostenibile {
+    background-color: #008000;
+    width: 140px;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 800px;
+    left: 90px;
+}
 
+.sostenibile, .sconto {
+    color: #ffffff;
+}
+
+i {
+    font-size: 30px;
+    background-color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+i:hover {
+color: #ff0000;
+}
 /*..............
 Footer
 ...............*/
