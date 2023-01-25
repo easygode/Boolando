@@ -22,17 +22,47 @@ Debug
 
 
 
+
 /*..............
 Common
 ...............*/
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
 
+li {
+    list-style-type: none;
+}
 
 /*..............
 Header
 ...............*/
 
+.banner {
+    align-content: space-between;
+    justify-items:center;
+    width: 100%;
+    background-color: #ff6900;
+}
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 60px ;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
+}
 
 /*..............
 Main
