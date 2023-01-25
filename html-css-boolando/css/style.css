@@ -45,6 +45,7 @@ Header
     justify-items:center;
     width: 100%;
     background-color: #ff6900;
+    padding: 40px 0 40px 0;
 }
 
 nav {
@@ -68,7 +69,29 @@ li {
 Main
 ...............*/
 
+.vetrina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+}
 
+h1 {
+    font-size: 20px;
+}
+
+#marchio, #articolo, #prezzo {
+    padding: 3px;
+}
+
+#prezzo {
+    color: #ff0000;
+}
+
+#prezzone {
+    color: #000000;
+    text-decoration: line-through;
+}
 
 /*..............
 Footer
